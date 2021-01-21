@@ -10,6 +10,7 @@ body {
 #menu {
     background: #c5c5b2;
     padding: 18px;
+    text-align: center;
 
 }
 
@@ -26,6 +27,7 @@ a {
 }
 
 #footer {
+    font-size: 0.8em;
     text-align: center;
     font-weight: bold;
 }
@@ -37,4 +39,12 @@ h1 {
 
 .campaign {
     border: 10px solid #c3c3ae;
+}
+
+fieldset {
+    text-align: center;
+}
+
+#btn-send input{
+    font-size: 1.5em;
 }

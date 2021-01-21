@@ -7,35 +7,48 @@
     <title>Contatos</title>
 </head>
 <body>
-    <div id="main"> <!--Start the container-->
-        <header> <!--The headline section -->
+    <div id="main">
+        <header>
                 <img src="image/capa.png" alt="Cover showing Anna Bella">
-            <nav id="menu"> <!--navigation section-->
+            <nav id="menu">
                 <a href="index.html">HOME</a> |
                 <a href="biography.html">BIOGRAFIA |</a>
                 <a href="advertising-campaign.html">CAMPANHAS PUBLICITÁRIAS</a> |
                 <a href="contact.html">CONTATO</a> |
-            </nav> <!--End of navigation section-->
-        </header> <!--end of headline section-->
-        <section id="content"> <!--inicio do conteúdo-->
+            </nav>
+        </header>
+        <section id="content">
             <h1>Contatos</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore molestias quia unde,
                 sed delectus, et explicabo in praesentium quidem corporis accusantium tenetur maxime, 
                 odio voluptatem culpa magni placeat laborum. Labore.
             </p>
-            <img src="image/foto1.png" alt="" class="campaign">  
-            <div>
-                <div>
-                    <strong>E-mail:</strong> contato@annabella.com.br<br>
-                    <strong>Telefone:</strong> (11) 9978-6589
-                </div>
-            </div>
-        </section> <!--Fim do conteúdo-->
+            <form>
+                <fieldset>
+                    <legend>Entre em contato</legend>
+                    <p>
+                    <label>Nome:</label>
+                    <input type="text" name="name" placeholder="Seu nome aqui" required>
+                    <label>Telefone:</label>
+                    <input type="tel" name="telephone" placeholder="(34) 9 99932-2570">
+                    <label>Email:</label>
+                    <input type="email" name="email" placeholder="contato@annabella.com.br" required>
+                    </p>
+                    <p>
+                        <textarea rows="20" cols="95" placeholder="Digite o seu texto aqui"></textarea>
+                    </p>
+                    <p id="btn-send">
+                        <input type="submit" value="Enviar">
+                    </p>
+                    
+                </fieldset>
+            </form>
+        </section>
 
         <footer id="footer">
-                <p>Todos direitos reservados</p>
+                <p>&reg;Todos direitos reservados</p>
         </footer>
-    </div>  <!--end of container-->
+    </div>
 </body>
 </html>
