@@ -1,0 +1,133 @@
+/* Clear standard formatation */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6 ;
+}
+
+h2 {
+    color: #f7b600;
+    font-size: 2.5em;
+}
+
+h3 {
+    color: #565656;
+    background-color: #CCC;
+    padding: 5px;
+}
+
+/* *** header Layout*** */
+#header-container {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo-area, #menu-area {
+    padding: 10px;
+}
+
+/* ***logo formating*** */
+.gray {
+    color: #4e4e4e;
+}
+
+.white {
+    color: #ffff;
+}
+
+/* ***standard link formating*** */
+a {
+    color: #f7b600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ***menu formating*** */
+#menu-area a:link, a:visited {
+    color: #ffff;
+    padding: 8px 12px;
+}
+
+#menu-area a:hover {
+    color: #f7b600;
+    background: #ffff;
+    text-decoration: none;
+}
+
+/* ***main container formating*** */
+#main-container {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#content-container {
+    width: 660px;
+    float: left
+}
+
+#aside-container {
+    width: 240px;
+    float: left;
+    margin-left: 20px;
+}
+
+#foot {
+    clear:both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC ;
+}
+
+/* ***Content Formating*** */
+.content {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ffff;
+}
+
+.content-date {
+    display: block;
+    font-size: 0.8em;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 10PX;
+    margin-bottom: 10px;
+}
+
+.content a, .aside-content a {
+    color: #f7b600;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+/* ***Aside content*** */
+
+.aside-content {
+    background: #ffff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.aside-post {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.aside-content ul, li {
+    list-style: none;
+    font-size: 1em;
+    padding: 5px;
+}
+
